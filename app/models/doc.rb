@@ -1,2 +1,3 @@
-class Doc < ApplicationRecord
+class Doc < ActiveRecord::Base
+    belongs_to :user
 end
